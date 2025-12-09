@@ -82,3 +82,5 @@ As colunas são renomeadas para facilitar a interpretação, conforme o mapeamen
 | `mean` | **CPUMédia** | Média de consumo de CPU |
 | `mode` | **CPUModa** | Valor de CPU mais frequente |
 | `p95` | **CPUP95** | Percentil 95 (95% dos dados estão abaixo deste valor) |
+
+Aqui o Percentil 95 é indicado como métrica mais próxima do ideal por ele focar na "pior situação real" que acontece com frequência.
