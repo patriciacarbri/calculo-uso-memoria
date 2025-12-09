@@ -51,7 +51,8 @@ O fluxo de execução é dividido em duas etapas: preparação (anonimização) 
 
 ### 1\. Anonimização dos Dados (Opcional)
 
-Por questões de confidencialidade e segurança, os nomes reais dos pods podem ser mascarados antes da análise.
+Por questões de confidencialidade e segurança, já que este cálculo foi usado para uma atividade real, foi criado este script para mascarar os nomes reais dos pods. 
+Desta forma o script de anomização foi incluído no projeto como acessório.
 
   * **Script:** `anomizacao.py`
   * **Função:** Lê os arquivos originais na pasta `data/`, gera nomes genéricos para os serviços e salva os arquivos anonimizados (`*_anon.csv`) e um arquivo de mapeamento (`mapping_pods.csv`).
